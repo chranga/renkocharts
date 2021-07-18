@@ -4,10 +4,10 @@ Other ideas include adding some trading related scripts as well.
 
 Primarily coding in Python
 
-**Plot Renko Charts.ipynb** My first code. Accidentally discovered mplfinance support for Renko and PnF charts.
+**[Plot Renko Charts.ipynb](https://github.com/chranga/renkocharts/blob/main/Plot%20Renko%20Charts.ipynb)** My first code. Accidentally discovered mplfinance support for Renko and PnF charts.
 This code simply reads data from Yahoo, saves to a df and then plots using renko
 
-**Forex_Renko_Investing.ipynb** This is an automatic python code using investpy feature to fetch EOD data. The dates are configured to automatically set the last date to the previous business day. The python code then saves the forex data into a dataframe and then it is rendered using the mplfinance package.
+**[Forex_Renko_Investing.ipynb](https://github.com/chranga/renkocharts/blob/main/Forex_Renko_Investing.ipynb)** This is an automatic python code using investpy feature to fetch EOD data. The dates are configured to automatically set the last date to the previous business day. The python code then saves the forex data into a dataframe and then it is rendered using the mplfinance package.
 We make use of two different brick sizes and moving averages to get a feel for analyzing the forex data using a larger renko brick size and the smaller renko brick size.
 
-**Forex_Intraday_Renko_Chart** This python script generates forex intraday renko charts. The data is first saved into a csv file using Metatrader 4 download center and then formated into a dataframe for rending the intraday charts.
+**[Forex_Intraday_Renko_Chart](https://github.com/chranga/renkocharts/blob/main/Forex_Intraday_Renko_Chart.ipynb)** This python script generates forex intraday renko charts. The data is first saved into a csv file using Metatrader 4 download center and then formated into a dataframe for rending the intraday charts.
